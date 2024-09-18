@@ -104,3 +104,17 @@ int main(){
     cout << "Wages for this week are $" << totalWages << endl;
     return 0;
 }
+
+int main(){
+   int lengh, width, area;
+   
+   cout<< "This program calculates the area of a ";
+   cout << "rectangle.\n";
+   cout << "What is the length og the rectangle? ";
+   cin >> lengh;
+   cout << "what is the width of the rectangle? ";
+   cin >> width;
+   area = lengh * width;
+   cout << "The area og rectangle is " << area << ".\n";
+    return 0;
+}
