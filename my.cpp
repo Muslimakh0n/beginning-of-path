@@ -132,3 +132,17 @@ int main(){
     cout << "The area of the rectangle is " << area << endl;
     return 0;
 }
+
+int main () {
+    int books;
+    int month;
+    double perMonth;
+
+    cout << "How many books do you plan to read? ";
+    cin >> books;
+    cout << "How many months will it take you to read them? ";
+    cin >> months;
+    perMonth = static_cast<double>(books) / months;
+    cout << "Tha is " << perMonth << "books per month.\n";
+    return 0
+}
