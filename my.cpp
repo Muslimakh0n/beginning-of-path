@@ -6,7 +6,7 @@ int main() {
     cout << "Programming is" << endl;
     cout << "fun!";
 
-    return 0
+    return 0;
 }
 
 
@@ -138,10 +138,10 @@ int main () {
     cout << "How many books do you plan to read? ";
     cin >> books;
     cout << "How many months will it take you to read them? ";
-    cin >> months;
-    perMonth = static_cast<double>(books) / months;
+    cin >> month;
+    perMonth = static_cast<double>(books) / month;
     cout << "Tha is " << perMonth << "books per month.\n";
-    return 0
+    return 0;
 }
 
 
