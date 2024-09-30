@@ -188,3 +188,30 @@ int main() {
 
     return 0; 
 }
+
+// task 2
+
+#include <iostream>  
+
+int main() {
+    
+    double length, width, area, perimeter;
+
+    
+    std::cout << "Please enter the length of the rectangle: ";
+    std::cin >> length;
+
+    
+    std::cout << "Please enter the width of the rectangle: ";
+    std::cin >> width;
+
+    
+    area = length * width;
+    perimeter = 2 * (length + width);
+
+
+    std::cout << "The area of the rectangle is: " << area << std::endl;
+    std::cout << "The perimeter of the rectangle is: " << perimeter << std::endl;
+
+    return 0;  
+}
