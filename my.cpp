@@ -215,3 +215,16 @@ int main() {
 
     return 0;  
 }
+
+void displayMessage(){
+cout << "Hello from function displayMessage.\n";     
+ }
+int main() {
+   
+cout << "hello.\n";
+displayMessage();
+cout << "Back in function main again.\n";
+
+ 
+    return 0;
+}
