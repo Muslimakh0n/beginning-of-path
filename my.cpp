@@ -166,65 +166,65 @@ int main() {
 
    
 
-int main() {
+// int main() {
   
-    std::string firstName;
-    int age;
+//     std::string firstName;
+//     int age;
 
   
-    std::cout << "Please enter your first name: ";
-    std::cin >> firstName;
+//     std::cout << "Please enter your first name: ";
+//     std::cin >> firstName;
 
   
-    std::cout << "Please enter your age: ";
-    std::cin >> age;
+//     std::cout << "Please enter your age: ";
+//     std::cin >> age;
 
   
-    int yearsUntil100 = 100 - age;
+//     int yearsUntil100 = 100 - age;
 
   
-    std::cout << "Hello " << firstName << "! You will turn 100 in " 
-              << yearsUntil100 << " years." << std::endl;
+//     std::cout << "Hello " << firstName << "! You will turn 100 in " 
+//               << yearsUntil100 << " years." << std::endl;
 
-    return 0; 
-}
+//     return 0; 
+// }
 
 // task 2
 
-#include <iostream>  
+// #include <iostream>  
 
-int main() {
+// int main() {
     
-    double length, width, area, perimeter;
-
-    
-    std::cout << "Please enter the length of the rectangle: ";
-    std::cin >> length;
+//     double length, width, area, perimeter;
 
     
-    std::cout << "Please enter the width of the rectangle: ";
-    std::cin >> width;
+//     std::cout << "Please enter the length of the rectangle: ";
+//     std::cin >> length;
 
     
-    area = length * width;
-    perimeter = 2 * (length + width);
+//     std::cout << "Please enter the width of the rectangle: ";
+//     std::cin >> width;
+
+    
+//     area = length * width;
+//     perimeter = 2 * (length + width);
 
 
-    std::cout << "The area of the rectangle is: " << area << std::endl;
-    std::cout << "The perimeter of the rectangle is: " << perimeter << std::endl;
+//     std::cout << "The area of the rectangle is: " << area << std::endl;
+//     std::cout << "The perimeter of the rectangle is: " << perimeter << std::endl;
 
-    return 0;  
-}
+//     return 0;  
+// }
 
-void displayMessage(){
-cout << "Hello from function displayMessage.\n";     
- }
-int main() {
+// void displayMessage(){
+// cout << "Hello from function displayMessage.\n";     
+//  }
+// int main() {
    
-cout << "hello.\n";
-displayMessage();
-cout << "Back in function main again.\n";
+// cout << "hello.\n";
+// displayMessage();
+// cout << "Back in function main again.\n";
 
  
-    return 0;
-}
+//     return 0;
+// }
